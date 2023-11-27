@@ -1,17 +1,17 @@
 package modelo;
 
-public class Exame {
+public class AcidoUrico {
 	private int id;
 	private String resultado;
 	
 	private Paciente paciente;
 	private Medico medico;
 	
-	public Exame() {
+	public AcidoUrico() {
 		
 	}
 	
-	public Exame(int id, String resultado, Paciente paciente, Medico medico) {
+	public AcidoUrico(int id, String resultado, Paciente paciente, Medico medico) {
 		this.id = id;
 		this.resultado = resultado;
 		this.paciente = paciente;

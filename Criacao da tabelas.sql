@@ -1,5 +1,5 @@
-create database teste2;
-use teste2;
+create database segurancaJavaExame;
+use segurancaJavaExame;
 
 -- Criação da tabela paciente
 CREATE TABLE paciente (

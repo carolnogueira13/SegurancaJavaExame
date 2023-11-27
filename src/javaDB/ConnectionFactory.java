@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
 	public static Connection getConnection() throws SQLException {
-		String url = "jdbc:mariadb://localhost/teste2";
+		String url = "jdbc:mariadb://localhost/segurancaJavaExame";
 		String user = "root";
 		String password = "";
 		

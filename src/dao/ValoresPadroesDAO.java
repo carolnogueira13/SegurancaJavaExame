@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import javaDB.ConnectionFactory;
-import modelo.Exame;
+import modelo.AcidoUrico;
 import seguranca.Hash;
 
 public class ValoresPadroesDAO {

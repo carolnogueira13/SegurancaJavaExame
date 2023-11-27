@@ -2,12 +2,12 @@ package testes;
 
 import java.util.Scanner;
 
-import dao.ExameDAO;
+import dao.AcidoUricoDAO;
 import dao.SenhaDAO;
 import dao.UsuarioDAO;
 import dao.ValoresPadroesDAO;
 /*
- * Classe Teste para popular o banco de dados nas tabelas Usuario, Senha, Exame(acido_urico)
+ * Classe Teste para popular o banco de dados nas tabelas Usuario, Senha, AcidoUrico
  */
 public class TestePopula {
 	public static void main(String[] args) {
@@ -32,7 +32,7 @@ public class TestePopula {
 			// Populando tabela acido_urico (salva o resultado do exame criptografado pela chave)
 			
 			// 3 gravações na tabela para teste
-			ExameDAO daoExame = new ExameDAO();
+			AcidoUricoDAO daoExame = new AcidoUricoDAO();
 			daoExame.adiciona("28 mg/dL", 1, 1, senhaCriptografia);
 			System.out.println("\nGravação do exame de acido urico feita no banco de dados!");
 			daoExame.adiciona("26 mg/dL", 2, 1, senhaCriptografia);
