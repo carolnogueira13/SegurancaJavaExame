@@ -17,7 +17,7 @@ CREATE TABLE medico (
 );
 
 -- Criação da tabela acido_urico (Será criptografada o campo resultado pela chave secreta)
-CREATE TABLE exame (
+CREATE TABLE acido_urico (
     id INT AUTO_INCREMENT PRIMARY KEY,
     resultado VARCHAR(100) NOT NULL, 
     id_paciente INT NOT NULL,
